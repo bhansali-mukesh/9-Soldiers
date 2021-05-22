@@ -1,0 +1,62 @@
+<!-- 
+	MUKESH KUMAR BHANSALI
+	All Right Reserved
+-->
+
+<html>
+<head>
+
+<title> Nav Hari : The 9 Soldiers</title>
+<link rel="shortcut icon" href="Icon.png" type="image/png">
+
+<meta name="keywords" content="game, nav, hari, soldiers, 9, mukesh, nine, war, marwadi, kukri, bhansali, kumar, yuddh">
+<meta name="description" content="Game of 9 Soldiers called Nav Hari">
+<!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+
+<script type="text/javascript" src="JSs/Loader.js"></script>
+<script type="text/javascript" src="JSs/Common_Manager.js"></script>
+
+<link rel="stylesheet" type="text/css" href="BHANSALI.css">
+
+
+<body onload="Load_Theme();" style="background-size: 100%;">
+<font color="RED"><b><em>
+	<div id="Score" class="left"></div>
+</font>
+	<img src = "Resources/space.jpeg" height=14 width = 150 style="opacity:0;">
+	<select id="players_type" onchange="Load_Theme();">
+		<option value="Human_Auto" selected>Single Player</option>
+		<option value="Humans">Double Player</option>
+	</select>
+
+	
+	<img src = "Resources/space.jpeg" height=14 width = 150 style="opacity:0;">
+	<font color="YELLOW">Turn :&nbsp;
+	<dviv id="turn"></div></b></em></font>
+	<div style="float: right; margin-right:20px;"> <font id="Stop_Watch" color="YELLOW"> </font> </div>
+
+	<div id="Set_Player" style="float;left;"></div>
+	
+	<select id="theme" onchange="Load_Theme();" style="float:right">
+		<option value="KABALI"> GOD & DEVILS </option>
+		<option value="EMPIRES"> AGE OF EMPIRES </option>
+		<option value="WORLD_WAR"> WORLD WAR </option>
+		<option value="COINS" selected> COINS</option>
+		<option value="WILD"> WILD </option>
+	</select>
+
+</br>
+<div id="navhari" style="float:left; width:100%"></div>
+
+</br>
+<input style="float:right" type="button" value=" Play Again " onclick="Load_Theme();" align="right"/>
+<input style="float:right" type="button" value="Instruction" onclick="Toggle('instructions');" align="right"/>
+<input style="float:right" type="button" value="Demonstrate" onclick="Load_Demonstration();" align="right"/>
+
+<font color="#FEEF99">
+<div id="instructions"></div>
+</font>
+<br></br>
+
+</body>
+</html>

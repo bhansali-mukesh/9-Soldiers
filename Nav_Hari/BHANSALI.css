@@ -1,0 +1,53 @@
+	.left{float:left;}
+
+	@media only screen and (min-width: 768px)
+	{
+    /* For desktop: */
+    
+    .player {width: 35px; height: 35px}
+    
+    .outer-horizon-path {width: 280px; height: 35px}
+    .middle-horizon-path {width: 175px; height: 35px}
+    .inner-horizon-path {width: 70px; height: 35px}
+    
+    .inner-vertical-portion {width: 35px; height: 35px}
+    .vertical-junction {width: 35px; height: 70px}
+    
+    .div-dimention-big {width: 315px; float:left}
+    .div-dimention-medium {width: 210px; float:left}
+    .div-dimention-small {width: 105px; float:left}
+	}
+	
+	@media only screen and (max-width: 767px) and (min-width: 600px)
+	{
+    /* For tablets: */
+    .player-tab {width: 30px; height: 30px}
+    
+    .outer-horizon-path-tab {width: 240px; height: 30px}
+    .middle-horizon-path-tab {width: 150px; height: 30px}
+    .inner-horizon-path-tab {width: 60px; height: 30px}
+    
+    .inner-vertical-portion-tab {width: 30px; height: 30px}
+    .vertical-junction-tab {width: 30px; height: 60px}
+    
+    .div-dimention-big-tab {width: 270px; float:left}
+    .div-dimention-medium-tab {width: 180px; float:left}
+    .div-dimention-small-tab {width: 90px; float:left}
+	}
+	
+	@media only screen and (max-width: 599px)
+	{
+    /* For mobile: */
+    .player-m {width: 30px; height: 30px}
+    
+    .outer-horizon-path-m {width: 240px; height: 30px}
+    .middle-horizon-path-m {width: 150px; height: 30px}
+    .inner-horizon-path-m {width: 60px; height: 30px}
+    
+    .div-dimention-big-m {width: 270px; float:left}
+    .inner-vertical-portion-m {width: 30px; height: 30px}
+    .vertical-junction-m {width: 30px; height: 60px}
+    
+    .div-dimention-medium-m {width: 180px; float:left}
+    .div-dimention-small-m {width: 90px; float:left}
+	}
